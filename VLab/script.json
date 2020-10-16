@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "repoPath": "ZonationWorkflow.sh",
+      "targetPath": "ZonationWorkflow.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "RunZonation.py",
+      "targetPath": "RunZonation.py",
+      "pathType": "FILE"
+ }
+  ]
+}

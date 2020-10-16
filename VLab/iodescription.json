@@ -1,0 +1,49 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3f5",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Input Zonation Data for Green Infrastructures",
+      "name": "Zonation Data",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "ZonationData.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fg",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Zonation Settings",
+      "name": "Zonation Settings",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "ZonationSettings.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fh",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Merge Input file",
+      "name": "Merge",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "input.vrt"
+ }
+
+  ],
+  "outputs": [
+      {
+      "id": "DataObject_0n95v56",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Zonation Output results",
+      "name": "Zonation Output",
+      "valueSchema": "url",
+      "target": "ZonationOutput.zip"
+ }
+  ]
+}
